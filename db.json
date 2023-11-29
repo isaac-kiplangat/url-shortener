@@ -1,0 +1,36 @@
+{
+  "Shorten": [
+    {
+      "originalUrl": "https://www.youtube.com/watch?v=wm5gMKuwSYk",
+      "id": 1
+    },
+    {
+      "originalUrl": "http://localhost:5173/",
+      "id": 2
+    },
+    {
+      "originalUrl": "https://www.youtube.com/watch?v=wm5gMKuwSYk",
+      "id": 3
+    },
+    {
+      "originalUrl": "chatgtp.com",
+      "id": 4
+    },
+    {
+      "originalUrl": "chatgtp.com",
+      "id": 5
+    },
+    {
+      "originalUrl": "chatgtp.com",
+      "id": 6
+    },
+    {
+      "originalUrl": "chatgtp.com",
+      "id": 7
+    },
+    {
+      "originalUrl": "http://localhost:5173/",
+      "id": 8
+    }
+  ]
+}

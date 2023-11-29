@@ -18,7 +18,7 @@ const Features = () => {
 
       <div className=' -translate-y-[70%]  md:-translate-y-[50%] md:py-20 grid md:grid-cols-3 md:gap-8 gap-16  '>
 
-        <div className='bg-white px-4 rounded-md py-4 text-center md:text-start'>
+        <div className='bg-white px-4 rounded-md hover:shadow-lg hover:-translate-y-4 transition-all duration-1000 py-4 text-center md:text-start'>
           <div className=' -translate-y-[70%] md:ml-4 mx-auto p-2 w-16 h-16 rounded-full bg-violet-950'>
             <img src={Graph} alt="" className='object-contain m-1 w-3/4' />
           </div>
@@ -28,23 +28,23 @@ const Features = () => {
           </p>
         </div>
 
-        <div className='bg-white px-4 rounded-md py-4 text-center md:text-start md:translate-y-10'>
+        <div className='bg-white px-4 rounded-md py-4 hover:shadow-lg hover:translate-y-6 transition-all duration-1000 text-center md:text-start md:translate-y-10'>
           <div className=' -translate-y-[70%] md:ml-4 mx-auto p-2 w-16 h-16 rounded-full bg-violet-950'>
             <img src={Graph} alt="" className='object-contain m-1 w-3/4' />
           </div>
-          <h2 className='md:mt-8 mt-0 p-4 tracking-wider  font-semibold text-violet-[hsl(260, 8%, 14%)] text-lg'>Brand Recognition</h2>
-          <p className='text-md px-4 mr-4 pb-8  text-gray-500'>Boost your brand recognition with each click. Generic links dont mean a thing.
-            Branded links help instill confidence in your content
+          <h2 className='md:mt-8 mt-0 p-4 tracking-wider  font-semibold text-violet-[hsl(260, 8%, 14%)] text-lg'>Detailed Records</h2>
+          <p className='text-md px-4 mr-4 pb-8  text-gray-500'>Gain insights into who is clicking your links. 
+          Knowing when and where people engage with your content helps inform better decisions.
           </p>
         </div>
 
-        <div className='bg-white px-4 rounded-md py-4 text-center md:text-start translate-y-20'>
+        <div className='bg-white px-4 rounded-md hover:shadow-lg hover:translate-y-16 transition-all duration-1000 py-4 text-center md:text-start translate-y-20'>
           <div className=' -translate-y-[70%] md:ml-4 mx-auto p-2 w-16 h-16 rounded-full bg-violet-950'>
             <img src={Graph} alt="" className='object-contain m-1 w-3/4' />
           </div>
-          <h2 className='md:mt-8 mt-0 p-4 tracking-wider  font-semibold text-violet-[hsl(260, 8%, 14%)] text-lg'>Brand Recognition</h2>
-          <p className='text-md px-4 mr-4 pb-8  text-gray-500'>Boost your brand recognition with each click. Generic links dont mean a thing.
-            Branded links help instill confidence in your content
+          <h2 className='md:mt-8 mt-0 p-4 tracking-wider   font-semibold text-violet-[hsl(260, 8%, 14%)] text-lg'>Fully Customizable</h2>
+          <p className='text-md px-4 mr-4 pb-8  text-gray-500'>Improve brand awareness and content 
+          discoverability through customizable links, supercharging audience engagement.
           </p>
         </div>
 

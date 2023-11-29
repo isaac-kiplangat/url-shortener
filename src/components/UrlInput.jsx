@@ -45,7 +45,7 @@ const UrlInput = () => {
   }
 
   return (
-    <section>
+    <section className=' translate-y-[50%]'>
       <div className='w-full mx-4 md:w-2/3 md:mx-36 p-4 md:p-12 rounded-xl' style={{ backgroundImage: `url(${InputBackground})`, backgroundPosition: 'cover', backgroundColor: 'hsl(257, 27%, 26%)' }}>
         <form onSubmit={shortenUrl} className='grid md:flex gap-4 items-center md:px-4 mx-auto '>
           <input

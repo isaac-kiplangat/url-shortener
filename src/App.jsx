@@ -11,9 +11,7 @@ function App() {
     <div className=" overflow-hidden ">
     <Navbar/>
     <Banner/>
-    <div className=" translate-y-[50%]">
     <UrlInput/>
-    </div>
     <Features/>
     <FeaturesLink/>
     <Footer/>

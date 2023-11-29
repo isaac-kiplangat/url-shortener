@@ -9,7 +9,7 @@ const Navbar = () => {
     setIsOpen(!isOpen)
   }
   return (
-    <nav className=' mx-4 md:w-4/5 md:mx-auto py-8 flex justify-between items-center'>
+    <nav className=' mx-4 top-0 md:w-4/5 md:mx-auto pt-8 flex justify-between items-center'>
       <div className='flex items-center gap-20'>
       <img src={Logo} alt="logo" width={100} height={50} />
         <ul className=' hidden md:flex gap-12 items-center'>

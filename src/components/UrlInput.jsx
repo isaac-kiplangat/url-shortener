@@ -74,7 +74,6 @@ const UrlInput = () => {
         <div key={shortUrl.id} className='bg-white md:ml-36 w-3/4 ml:8 mx-auto py-4 px-4 my-2 rounded-md flex justify-between'>
           <div className='flex flex-col space-y-2'>
             <p className='overflow-hidden overflow-ellipsis text-black max-w-[80%]'>{shortUrl.long_url}</p>
-            <p className='overflow-hidden overflow-ellipsis'>{shortUrl.link}</p>
           </div>
           <div className='flex items-center gap-8'>
             <p className='overflow-hidden overflow-ellipsis'>{shortUrl.id}</p>

@@ -46,7 +46,7 @@ const UrlInput = () => {
 
   return (
     <section className=' translate-y-[50%]'>
-      <div className='w-full mx-4 md:w-2/3 md:mx-36 p-4 md:p-12 rounded-xl' style={{ backgroundImage: `url(${InputBackground})`, backgroundPosition: 'cover', backgroundColor: 'hsl(257, 27%, 26%)' }}>
+      <div className='w-full mx-4 md:w-4/5 md:mx-auto p-4 md:p-8 rounded-xl' style={{ backgroundImage: `url(${InputBackground})`, backgroundPosition: 'cover', backgroundColor: 'hsl(257, 27%, 26%)' }}>
         <form onSubmit={shortenUrl} className='grid md:flex gap-4 items-center md:px-4 mx-auto '>
           <input
             type='text'
@@ -54,7 +54,7 @@ const UrlInput = () => {
             name='url'
             value={url}
             onChange={(e) => setUrl(e.target.value)}
-            className={`px-4 py-3 text-xl text-gray-500 ${error ?'border-2 border-red-500' :'border-none'} w-full md:w-3/4 outline-none rounded-md font-light`}
+            className={`px-4 py-3 text-xl text-gray-500 ${error ?'outline-2 outline-red-500' :'outline-none'} w-full md:w-3/4  rounded-md font-light`}
             placeholder='enter url'
           />
           <button
@@ -71,10 +71,8 @@ const UrlInput = () => {
       </div>
 
       {shortUrls.map((shortUrl) => (
-        <div key={shortUrl.id} className='bg-white md:ml-36 w-3/4 ml:8 mx-auto py-4 px-4 my-2 rounded-md flex justify-between'>
-          <div className='flex flex-col space-y-2'>
+        <div key={shortUrl.id} className='bg-white md:ml-auto w-4/5 ml:8 mx-auto py-4 px-4 my-2 rounded-md items-center flex justify-between'>
             <p className='overflow-hidden overflow-ellipsis text-black max-w-[80%]'>{shortUrl.long_url}</p>
-          </div>
           <div className='flex items-center gap-8'>
             <p className='overflow-hidden overflow-ellipsis'>{shortUrl.id}</p>
             <CopyToClipboard
